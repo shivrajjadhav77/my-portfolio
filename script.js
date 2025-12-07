@@ -3,14 +3,14 @@ const root = document.documentElement;
 const themeToggle = document.getElementById('themeToggle');
 const savedTheme = localStorage.getItem('theme');
 
-if (savedTheme === 'light') root.classList.add('light');
-themeToggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
+// if (savedTheme === 'light') root.classList.add('light');
+// themeToggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
 
-themeToggle.addEventListener('click', () => {
-  root.classList.toggle('light');
-  localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
-  themeToggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
-});
+// themeToggle.addEventListener('click', () => {
+//   root.classList.toggle('light');
+//   localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
+//   themeToggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
+// });
 
 // Mobile nav
 const navToggle = document.getElementById('navToggle');

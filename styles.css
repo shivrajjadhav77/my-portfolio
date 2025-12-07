@@ -10,7 +10,7 @@ body {
 }
 
 /* Themes */
-:root {
+/* :root {
   --bg: #0b1020;
   --surface: #0f172a;
   --muted: #a1a1aa;
@@ -29,7 +29,7 @@ body {
   --card: #ffffffcc;
   --border: rgba(0,0,0,0.08);
   --ring: rgba(14,165,233,0.18);
-}
+} */
 
 /* Layout helpers */
 .container { width: min(1120px, 92%); margin-inline: auto; }
@@ -201,3 +201,27 @@ input:focus, textarea:focus { box-shadow: 0 0 0 3px var(--ring); border-color: t
 
 /* ---------- Utility ---------- */
 .hidden { display: none !important; }
+
+p::selection{
+  background-color:  rgb(17, 198, 89);
+  color: rgb(8, 5, 0);
+}
+
+body {
+ background-color: #000;
+ color: #fff;
+}
+
+.contact-form{
+  background-color: #5eeaa281;
+}
+
+div input{
+  background-color: #000;
+}
+.btn-primary{
+  background-color: #93c5fd;
+}
+#textarea {
+background-color: #000;
+}
